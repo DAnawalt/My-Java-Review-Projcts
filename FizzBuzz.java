@@ -1,6 +1,6 @@
 class FizzBuzz{
-  public void fizzBuzzClass(int Ceiling){
-    for (int i = 0; i <= Ceiling; i++;){
+  public static void fizzBuzzClass(int Ceiling){
+    for (int i = 0; i <= Ceiling; i++){
       if (i % 15 == 0){
         System.out.println("FizzBuzz!");
       }
@@ -12,9 +12,7 @@ class FizzBuzz{
       }
     }
   }
-
-
   public static void main(String[] args){
-  Fizzbuzz runThisProgram = fizzBuzzClass(100);
+    fizzBuzzClass(100);
   }
 }
